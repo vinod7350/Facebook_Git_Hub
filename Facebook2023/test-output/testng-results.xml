@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T14:12:45 PST" name="Regression_Suite" finished-at="2023-02-27T14:12:53 PST" duration-ms="8514">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T14:12:45 PST" name="Test12" finished-at="2023-02-27T14:12:53 PST" duration-ms="8514">
+      <class name="TestNG.FacebookTestNG">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:45 PST" name="launchbrowser" finished-at="2023-02-27T14:12:47 PST" duration-ms="2093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="ObjectStore()[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:47 PST" name="ObjectStore" finished-at="2023-02-27T14:12:47 PST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ObjectStore -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:47 PST" name="launchApplication" finished-at="2023-02-27T14:12:50 PST" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test()[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:50 PST" name="test" finished-at="2023-02-27T14:12:53 PST" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:53 PST" name="aftermethod" finished-at="2023-02-27T14:12:53 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=FacebookTestNG.test()[pri:0, instance:TestNG.FacebookTestNG@56620197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:53 PST" name="launchApplication" finished-at="2023-02-27T14:12:53 PST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test1()[pri:1, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:53 PST" name="test1" finished-at="2023-02-27T14:12:53 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:53 PST" name="aftermethod" finished-at="2023-02-27T14:12:53 PST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=FacebookTestNG.test1()[pri:1, instance:TestNG.FacebookTestNG@56620197] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:53 PST" name="afterclass" finished-at="2023-02-27T14:12:53 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.FacebookTestNG@56620197]" started-at="2023-02-27T14:12:53 PST" name="afterTest" finished-at="2023-02-27T14:12:53 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.FacebookTestNG -->
+    </test> <!-- Test12 -->
+  </suite> <!-- Regression_Suite -->
+</testng-results>
